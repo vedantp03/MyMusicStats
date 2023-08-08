@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, darkgrey, whitesmoke);
+  position:absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+}
+
+.contentBox {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  height: 200px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+  border-radius: 5px;
+}
+
+.contentBox p {
+  margin: 5px;
+}
+
+.contentBox h1 {
+  margin: 10px;
+  padding-bottom: 10px;
+}
+
+.loginBtn {
+  cursor: pointer;
+  color: whitesmoke;
+  font-size: medium;
+  font-weight: bold;
+  background-color: #1DB954;
+  border: 0px;
+  border-radius: 40px;
+  height: 50px;
+  width: 175px;
+}
